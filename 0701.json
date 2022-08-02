@@ -1,6 +1,6 @@
 {
-  "wallpaper": "https://picsum.photos/1280/720/?blur=10",
-  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;50709eef510957a39acbc9ec29de8cd5",
+  //"wallpaper": "https://picsum.photos/1280/720/?blur=10",
+  "spider": "https://kvymin.github.io/CatVod/jar/custom_spider.jar;md5;d63fe3db21b48e04884c2d5303907bd1",
   "sites": [
     {
       "key": "厂长影视",
@@ -146,57 +146,6 @@
       "quickSearch": 1,
       "filterable": 1
     },
-    //{"key":"Kmys","name":"酷猫〔SP〕","type":3,"api":"csp_Kmys","searchable":1,"quickSearch":1,"filterable":1},
-    //{"key":"低端影视","name":"低端影视〔SP〕","type":3,"api":"csp_Ddrk","searchable":1,"quickSearch":1,"filterable":1},
-    {
-      "key": "9E03",
-      "name": "9E03〔V2〕",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://vod.9e03.com/lvdou_api.php/v1.vod"
-    },
-    {
-      "key": "爱酷",
-      "name": "📺爱酷〔V2〕",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.zhanlangbu.com/ruifenglb_api.php/v1.vod"
-    },
-    {
-      "key": "300看世界",
-      "name": "🎬300看世界〔V2〕",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://300ys.xyz/mogai_api.php/v1.vod"
-    },
-    {
-      "key": "csp_appys_美剧虫",
-      "name": "🐞美剧虫〔V1〕",
-      "type": 3,
-      "api": "csp_AppYs",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://meijuchong.com/api.php/v1.vod"
-    },
-    {
-      "key": "海外电影",
-      "name": "🌈海外电影(聚)",
-      "type": 1,
-      "api": "https://www.200121.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
     {
       "key": "Bili",
       "name": "B站〔SP〕",
@@ -328,30 +277,6 @@
       "ext": "https://kvymin.github.io/CatVod/XBiubiu/宝仙HD.json"
     },
     {
-      "key": "极速",
-      "name": "极速〔聚〕",
-      "type": 1,
-      "api": "https://www.ddzyz1.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "categories": [
-        "国产剧",
-        "港台剧",
-        "日韩剧",
-        "欧美剧",
-        "综艺",
-        "动漫",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片"
-      ]
-    },
-    {
       "key": "Gitcafe",
       "name": "小纸条〔SP〕",
       "type": 3,
@@ -359,7 +284,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "5d52036a715340f69380144ff6837fa0"
+      "ext": "1f373a68733e4dafa5fa28dca9826b35"
     },
     {
       "key": "zhaozy",
@@ -426,6 +351,19 @@
       "type":1,
       "url":"http://47.98.234.2:7768/api.php?url=",
       "ext":{"flag":["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"],"header":{"User-Agent":"Dart/2.14 (dart:io)"}}
+    }, 
+    {
+      "name":"③秒播",
+      "url": "http://81.71.48.249:4456/jsonc/293shipin.php?url=",
+      "type": 1,
+      "i": "77",
+      "ext":{"flag":["qiyi","爱奇艺","奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果"]}
+    },
+    {
+      "name": "⑤秒播",
+      "type": 1,
+      "url": "http://81.71.48.249:4456/jsonc/longxia.php?url=",
+      "ext": {"flag": ["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905"],"header": {"User-Agent": "Dart/2.14 (dart:io)"}}
     },
     {
       "name":"433解析",
